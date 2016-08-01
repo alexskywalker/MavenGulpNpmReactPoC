@@ -65,3 +65,5 @@ hs_err_pid*
 /target/
 /MavenGulpReact.iml
 /src/main/webapp/resources/vendor/
+/src/main/frontend/node/
+/src/main/frontend/node_modules/
