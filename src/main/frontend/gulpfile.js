@@ -8,14 +8,14 @@ var jest = require('gulp-jest');
 var chalk = require('chalk');
 
 gulp.task('compile', function(){
-    browserify('./js/app.jsx')
+    browserify('./js/app.js')
         .transform(babelify)
         .bundle()
         .on('error', function(err){
             console.log(chalk.bold.red(err));
         })
-        .pipe(source('main.js'))
-        .pipe(gulp.dest('./dist/javascript'));
+        .pipe(source('app.min.js'))
+        .pipe(gulp.dest('../webapp/resources/js'));
 });
 
 gulp.task('jest', function(){

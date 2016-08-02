@@ -13,7 +13,12 @@
     "bl": "^0.9.4",
     "browserify": "^8.1.3",
     "gulp": "^3.8.11",
-    "react": "^0.12.2",
+    "react": "^15.3.0",
+    "react-dom": "15.3.0",
+    "flux": "*",
+    "eventemitter3": "*",
+    "es6-mixins" : "*",
+    "jquery": "*",
     "through2": "^0.6.3",
     "vinyl": "^0.4.6",
     "vinyl-source-stream": "^1.0.0"
@@ -24,6 +29,6 @@
     "chalk": "^1.0.0",
     "gulp-jest": "^0.4.0",
     "harmonize": "^1.4.1",
-    "react-tools": "^0.12.2"
+    "react-tools": "^0.13.3"
   }
 }
