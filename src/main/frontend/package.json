@@ -5,7 +5,7 @@
   "repository": "https://www.github.com/imcnally/react-es6-gulp-playground",
   "main": "Gulpfile.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +24,7 @@
     "vinyl-source-stream": "^1.0.0"
   },
   "devDependencies": {
-    "babel-jest": "^4.0.0",
+    "jest-cli": "17.0.2",
     "babelify": "^5.0.3",
     "chalk": "^1.0.0",
     "gulp-jest": "^0.4.0",
